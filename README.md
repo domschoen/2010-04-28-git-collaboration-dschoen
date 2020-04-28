@@ -67,3 +67,10 @@ git stash clear
 git push --set-upstream origin my_first_branch
 git push origin my_first_branch
 
+Deleted branch 
+git fetch --prune
+
+git branch -d my_first_branch
+git branch -a
+git log --oneline --graph --decorate --all
+
