@@ -43,3 +43,23 @@ git log --oneline --all --decorate
 ```
 git log --oneline --graph --all --decorate
 ```
+### Merge
+Let's do it on the web interface (to get the review and all other stuff)
+
+
+### Stashing
+writing a temporary commit
+```
+git stash
+```
+Then we can switch to master and go back to the branch reapply the stash to retrieve your work.
+```
+git stash apply
+```
+```
+git stash list
+```
+```
+git stash clear
+```
+
