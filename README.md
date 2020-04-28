@@ -74,3 +74,15 @@ git branch -d my_first_branch
 git branch -a
 git log --oneline --graph --decorate --all
 
+### Exercise
+1. create a new branch
+2. edit the reame file 
+  add/commit
+3. push the branch to the remote
+4. create the PR
+5. look around
+6. merge the PR
+7. delete the branch on GH
+8. go t omaster on local computer 
+9. pull merged changes
+10. clean up all your branches
