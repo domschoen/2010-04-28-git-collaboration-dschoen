@@ -76,13 +76,45 @@ git log --oneline --graph --decorate --all
 
 ### Exercise
 1. create a new branch
+```
+git checkout master
+git checkout -b mybranch
+```
 2. edit the reame file 
   add/commit
+```
+git add README.md
+```  
 3. push the branch to the remote
+```
+git push origin mybranch
+```
 4. create the PR
+  - master compare mybranch
+  - create PR
 5. look around
 6. merge the PR
 7. delete the branch on GH
-8. go t omaster on local computer 
+8. go to master on local computer 
 9. pull merged changes
+```
+git checkout master
+git pull origin master
+```
 10. clean up all your branches
+--all if you have multiple remotes.
+```
+git fetch --prune --all
+git branch -a
+git branch -d mybranch
+git log --oneline --graph --decorate --all
+```
+
+if muliple people merging at the same time
+git is a acyclic graph
+second person problem
+
+
+
+
+
