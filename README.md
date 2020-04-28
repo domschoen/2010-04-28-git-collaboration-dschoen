@@ -34,7 +34,12 @@ git checkout -b my_first_branch
 git --version
 git version 2.15.0
 Trainer: 2.26.2 
+```
 
-
+### List all branches
+```
 git log --oneline --all --decorate
 ``` 
+```
+git log --oneline --graph --all --decorate
+```
