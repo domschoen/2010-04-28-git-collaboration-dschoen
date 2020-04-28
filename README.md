@@ -9,4 +9,32 @@ Git collaboration workshop
 git remote -v
 origin	https://github.com/domschoen/2010-04-28-git-collaboration-dschoen.git (fetch)
 origin	https://github.com/domschoen/2010-04-28-git-collaboration-dschoen.git (push)
-```    
+```
+
+## Branches
+### Create a new branch
+``` 
+git branch my_first_branch
+``` 
+### List all branches
+``` 
+git branch -a    
+``` 
+git switch my_first_branch
+or  
+git checkout my_first_branch
+
+Delete a branch
+git branch -d my_first_branch
+
+create and go directly to the branch
+git switch -c my_first_branch
+git checkout -b my_first_branch
+
+git --version
+git version 2.15.0
+Trainer: 2.26.2 
+
+
+git log --oneline --all --decorate
+``` 
