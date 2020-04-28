@@ -1,4 +1,4 @@
-# 2010-04-28-git-collaboration-dschoen
+# 2010-04-28: Git Collaboration Notes
 Git collaboration workshop
 
 - `git clone <URL>`: downloads the repository from the web to our computer
