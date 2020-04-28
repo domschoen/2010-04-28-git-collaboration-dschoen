@@ -114,6 +114,10 @@ if muliple people merging at the same time
 git is a acyclic graph
 second person problem
 
+What if we merge and we have also modification in the master
+
+Let's try
+2 branches
 
 
 
