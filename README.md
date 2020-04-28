@@ -63,3 +63,7 @@ git stash list
 git stash clear
 ```
 
+
+git push --set-upstream origin my_first_branch
+git push origin my_first_branch
+
